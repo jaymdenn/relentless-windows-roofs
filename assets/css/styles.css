@@ -2084,6 +2084,25 @@ ul {
     opacity: 1;
 }
 
+.gallery-subtitle {
+    font-size: 20px;
+    color: var(--white);
+    margin-bottom: 25px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.gallery-subtitle:first-of-type {
+    margin-top: 0;
+}
+
+.gallery-subtitle i {
+    color: var(--primary-color);
+    font-size: 18px;
+}
+
 /* ============================================
    Landing Page - Two Column Service Cards
    ============================================ */
